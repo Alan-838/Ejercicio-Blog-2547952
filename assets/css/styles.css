@@ -142,12 +142,20 @@ header {
 nav {
     padding: 10px;
 }
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
 nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 20px;
+}
+.logo-company {
+    width: 60px;
 }
 .header-title-text {
     background-color: rgb(42, 98, 202);
@@ -209,9 +217,7 @@ nav ul {
     /* align-items: end */
 }
 
-.author-1 {
-    font-size: 14px;
-}
+
 
 .news-2-article-1 div,
 .news-2-article-2 div,
@@ -228,13 +234,15 @@ nav ul {
 .news-2-article-3 figure img {
     width: 295px;
 }
-
+.author-1 h4, .author-1 p{
+    font-size: 14px;
+}
 .article-1 {
     border: solid red 2px;
     width: 370px;
 }
 
-.article-1 h2 {
+.article-1 > h2 {
     font-size: 32px;
 }
 
@@ -311,6 +319,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .author-bookmark-share>div>a img {
@@ -338,7 +347,7 @@ nav ul {
     width: 420px;
 }
 
-.work-with-us h3 {
+.work-with-us > h3 {
     font-size: 32px;
     font-weight: 400;
 }
