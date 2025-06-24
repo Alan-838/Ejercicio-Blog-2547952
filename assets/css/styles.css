@@ -48,7 +48,7 @@
 
     .news-1 figure {
         max-width: 50%;
-        border: solid green;
+        /* border: solid green; */
     }
 
     .img-1 {
@@ -109,7 +109,7 @@
 
     .news-1 figure {
         max-width: 80%;
-        border: solid green;
+        /* border: solid green; */
     }
 
     .img-1 {
@@ -232,7 +232,7 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: solid blueviolet;
+    /* border: solid blueviolet; */
     margin: 0;
 }
 
@@ -261,7 +261,7 @@ nav ul {
 }
 
 .news-2-article-1 {
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-direction: column;
 }
@@ -285,7 +285,7 @@ nav ul {
 .news-2-article-2 figure img,
 .news-2-article-3 figure img {
     width: 295px;
-    border: solid brown;
+    /* border: solid brown; */
 }
 
 .author-1 h4,
@@ -294,7 +294,7 @@ nav ul {
 }
 
 .article-1 {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 370px;
 }
 
@@ -325,7 +325,7 @@ h2 {
 .news-3-article-3,
 .news-3-article-4,
 .news-3-article-5 {
-    border: solid fuchsia;
+    /* border: solid fuchsia; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -349,7 +349,7 @@ h2 {
 .news-3-article-3>div,
 .news-3-article-4>div,
 .news-3-article-5>div {
-    border: solid red;
+    /* border: solid red; */
     width: 550px;
 }
 
@@ -359,7 +359,7 @@ h2 {
 .news-3-article-4 figure img,
 .news-3-article-5 figure img {
     width: 310px;
-    border: solid green;
+    /* border: solid green; */
 }
 
 .news-3-article-1 figure,
@@ -367,7 +367,7 @@ h2 {
 .news-3-article-3 figure,
 .news-3-article-4 figure,
 .news-3-article-5 figure {
-    border: solid blue;
+    /* border: solid blue; */
     margin: 0;
 }
 
@@ -399,7 +399,7 @@ h2 {
 }
 
 .work-with-us {
-    border: solid red;
+    /* border: solid red; */
     width: 420px;
 }
 
@@ -434,7 +434,7 @@ footer {
 
 footer .footer-parts {
     display: flex;
-    border: solid red;
+    /* border: solid red; */
     flex-wrap: wrap;
 }
 
@@ -443,7 +443,7 @@ footer .footer-parts {
 .footer-social-media {
     /* width: 260px; */
     width: 310px;
-    border: solid green;
+    /* border: solid green; */
 }
 
 .footer-info>p {
@@ -463,7 +463,7 @@ footer .footer-parts {
 .footer-about>div>a {
     text-decoration: none;
     color: #eee;
-    border: solid salmon;
+    /* border: solid salmon; */
     margin-top: 15px;
 }
 
@@ -473,7 +473,7 @@ footer .footer-parts {
 
 .footer-social-media>div>a {
     text-decoration: none;
-    border: solid red;
+    /* border: solid red; */
     color: #eee;
     margin-top: 15px;
 }
